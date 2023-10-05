@@ -1,8 +1,8 @@
-
+import {Outlet} from 'react-router-dom'
 const RootElement = () => {
     return (
-        <div>
-            <h1 className="text-7xl ">root</h1>
+        <div className='font-mont'>
+            <Outlet></Outlet>
         </div>
     );
 };
